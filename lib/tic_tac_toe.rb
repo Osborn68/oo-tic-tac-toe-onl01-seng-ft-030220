@@ -54,6 +54,7 @@ def turn
 end 
 
 def won?
+<<<<<<< HEAD
 WIN_COMBINATIONS.each do |win_combo|
       if @board[win_combo[0]] == @board[win_combo[1]] &&  @board[win_combo[1]] == @board[win_combo[2]] &&  position_taken?(win_combo[0])
         return win_combo
@@ -109,6 +110,13 @@ end
 end  
 
     
+=======
+ @board == WIN_COMBINATIONS.detect
+ 
+end 
+end 
+
+>>>>>>> 7fdcfacb7842b198fc9413e736137e19c9c0f74e
 
 
 
